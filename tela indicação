@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indique seu filme</title>
+    <link rel="stylesheet" href="filme.css" >
+
+</head>
+<body>
+    <h1>Indique seu Filme ou Série favorito</h1>
+    <form >
+     
+        <label for="Nome">Seu nome:</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome"><br/>
+        <br/>
+        <label for="email">Email:</label><br/>
+        <input type="email" name="email" id="email" placeholder="Seu e-mail"><br/>
+        <br/>
+        <label for="tipo">Tipo:</label><br/>
+        <select name="tipo" id="tipo">
+            <option value="Filme">Filme</option>
+            <option value="Série">Série</option>           
+        </select><br/>
+        <br/>  
+        <label for="Nomee">Nome do Filme/Série:</label><br/>
+        <input type="text" name="Nomee" id="Nomee" placeholder="Nome do Filme/Série"><br/>
+        <br/>
+        <label for="link">Link do Filme/Série:</label><br/>
+        <input type="url" name="link" id="link" placeholder="Link do Filme/Série"><br/>
+        <br/>
+         
+
+        <input type="button" value="Enviar">
+    </form>
+    <strong><a href="Ranking Séries.html">Voltar</a></strong>
+</body>
+
+</html>
